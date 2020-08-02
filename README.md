@@ -2,4 +2,4 @@
 
 ## toggle to switch dark and light version of layout
 
-![preview](https://github.com/pajlotapps/dark-light-mode-theme?branch=master&filepath=preview.png?raw=true)
+![preview](https://raw.githubusercontent.com/pajlotapps/dark-light-mode-theme/master/preview.png?raw=true)
