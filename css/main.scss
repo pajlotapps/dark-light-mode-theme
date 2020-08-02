@@ -1,12 +1,12 @@
 html {
     height: 100%;
-    font-family: 'Robot';
+    font-family: 'Montserrat';
     display: grid;
     align-items: center;
     justify-items: center;
 
     --bg: #FCFCFC;
-    --bg-panel: # EBEBEB;
+    --bg-panel: #EBEBEB;
     --color-headings: #0077FF;
     --color-text: #333333;
 }
@@ -19,7 +19,31 @@ body {
     background-color: var(--bg-panel);
     margin: 5em;
     padding: 5em;
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+     "title switch"
+     "content content";
+
+     h1 {
+         margin: 0;
+         color: var(--color-headings);
+     }
+
+     p {
+         color: var(--color-text);
+         grid-area: content;
+         font-size: 1.1em;
+         line-height: 1.8em;
+         margin-top: 2em;
+     }
 }
+
+
+
 
 input[type=checkbox]{
 	height: 0;
@@ -30,8 +54,8 @@ input[type=checkbox]{
 label {
 	cursor: pointer;
 	text-indent: -9999px;
-	width: 200px;
-	height: 100px;
+	width: 52px;
+	height: 27px;
 	background: grey;
 	display: block;
 	border-radius: 100px;
@@ -41,17 +65,17 @@ label {
 label:after {
 	content: '';
 	position: absolute;
-	top: 5px;
-	left: 5px;
-	width: 90px;
-	height: 90px;
+	top: 3px;
+	left: 3px;
+	width: 20px;
+	height: 20px;
 	background: #fff;
 	border-radius: 90px;
 	transition: 0.3s;
 }
 
 input:checked + label {
-	background: #bada55;
+	background: var(--color-headings);
 }
 
 input:checked + label:after {
@@ -60,13 +84,5 @@ input:checked + label:after {
 }
 
 label:active:after {
-	width: 130px;
-}
-
-// centering
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+	width: 45px;
 }
