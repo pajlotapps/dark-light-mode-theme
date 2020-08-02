@@ -9,7 +9,7 @@ Use switch to toggle between dark and light version of layout
 checkout live demo[../development/dark-mode][demo] 🕸
 
 ### Additional info 
-based on <img align="left" alt="| YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" /> [tutorial][yt-source] by yt@[DesignCourse] [coursetro]
+based on <img alt="YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" /> [tutorial][yt-source] by @ [DesignCourse][coursetro]
 
 
 [yt-source]: https://www.youtube.com/watch?v=ZKXv_ZHQ654
