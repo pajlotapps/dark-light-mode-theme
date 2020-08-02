@@ -11,6 +11,13 @@ html {
     --color-text: #333333;
 }
 
+html[data-theme='dark'] {
+    --bg: #333333;
+    --bg-panel: #434343;
+    --color-headings: #3694FF;
+    --color-text: #B5B5B5;
+}
+
 body {
     background-color: var(--bg);
 }
@@ -41,9 +48,6 @@ body {
          margin-top: 2em;
      }
 }
-
-
-
 
 input[type=checkbox]{
 	height: 0;
